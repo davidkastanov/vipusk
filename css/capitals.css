@@ -1,0 +1,17 @@
+
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+table{
+     justify-content: center;
+    size: 50px;
+    color: black;
+    margin-left: 43%;
+    margin-top: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+    
