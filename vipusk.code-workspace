@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "vipusk",
+			"path": "."
+		},
+		{
+			"name": "css",
+			"path": "../site1/css"
+		},
+		{
+			"name": "foto",
+			"path": "../site1/foto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vipusk"
+	}
+}

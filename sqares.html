@@ -8,19 +8,30 @@
 
 	<canvas id="myCanvas" width="1000" height="1000"></canvas>
 
-	<script type="text/javascript">
-		let a = document.getElementById('myCanvas');
-        let axt = a.getContext('2d');
-
-        axt.globalAlpha = 0.5;
-        axt.fillStyle = '#ff0000';
-        axt.fillRect(70, 70, 300, 300);
-        axt.fillStyle = '#00ff00';
-        axt.fillRect(140, 140, 300, 300);
-        axt.fillStyle = '#0000ff';
-        axt.fillRect(210, 210, 300, 300);
-
-	</script>
+<canvas id="myCanvas" width="500" height="500"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+let c = document.getElementById("myCanvas");
+let cxt = c.getContext("2d");
+function drawSquare(){
+let a=1;
+let r,g,b;
+let x=15, y=15;
+for(let i=0;i<25;i++){
+ r=Math.floor(Math.random()*256);
+ b=Math.floor(Math.random()*256);
+ g=Math.floor(Math.random()*256);
+    cxt.fillStyle = `rgb(${r}, ${g}, ${b})`;
+    cxt.fillRect(x, y, 100, 100); 
+    cxt.globalAlpha = a;
+    a=a-0.03;
+    x=x+15;
+    y=y+15;
+    }
+}
+setInterval(drawSquare, 300);
+</script>
 
 </body>
 </html>
