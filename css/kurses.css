@@ -1,0 +1,132 @@
+
+
+header{
+  height: 100px;
+  
+}
+
+body{
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+
+.menu{
+	 margin-left: 15%;
+	 margin-right: 15%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 3px solid black;
+}
+
+.floating-button {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.floating-button:hover {
+  color: lightblue;
+}
+
+
+.content{
+	margin-left: 15%;
+	margin-right: 15%;
+	display: flex;
+  flex-flow: column;
+  align-content: center;
+  background-color: #D2FDFE;
+}
+
+
+
+h1{
+	font-size: 60px;
+	color: turquoise;
+	text-shadow: blue 5px 5px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+}
+h2{
+	font-size: 50px;
+	color: #0099FF;
+	text-shadow: lightblue 5px 5px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+h3{
+	font-size: 24px;
+	letter-spacing: 5px;
+	margin-left: 20px;
+	font-family: 'Dancing Script', cursive;
+	color: #2F6386;
+}
+p{
+	text-align: justify;
+	text-indent: 36px;
+	font-size: 24px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.about_img{
+	border-radius: 50%;
+	width: 150px;
+	margin-left: 43%;
+}
+
+
+.items_list{
+	margin-top: 40px;
+}
+
+a, li{
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+}
+
+
+
+table{
+	border: 3px solid;
+	width: 600px;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin-left: 20%;
+}
+
+th, td{
+	border: 2px solid #0099FF;;
+	text-align: center;
+	font-size: 24px;
+}
+
+.one{
+	border: none;
+}
+
+
+.img_list{
+	margin: 30px;
+	margin-top: 50px;
+	margin-right: 70px;
+	width: 400px;
+}
+
+.img_space{
+	width: 300px;
+	margin-right: 70px;
+}
+
+.facebook_link{
+	margin-left: 95px;
+}
